@@ -7,7 +7,10 @@ public class MaximimProfit {
 	int[] arr1=new int[] {8,3,1};
 	int profit =maximumProfit(arr1);
 	System.out.println(profit);
-
+	
+	int[] arr2=new int[] {2,3,5};
+	int profit2 =maximumProfit(arr2);
+	System.out.println(profit2);
 	}
 
 	private static int maximumProfit(int[] arr1) {
