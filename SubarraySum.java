@@ -20,8 +20,7 @@ void subArrayMethod(int arr[], int n, int sum)
         int currentSum = arr[i];
 
         if (currentSum == sum) {
-            System.out.println("sum in index"
-                               + i);
+            System.out.println("sum in index"+ i);
             return;
         }
         else {
@@ -30,8 +29,7 @@ void subArrayMethod(int arr[], int n, int sum)
 
                 if (currentSum == sum) {
                     System.out.println(
-                        "Sum between index" + i
-                        + " & " + j);
+                        "Sum between index" + i + " & " + j);
                     return;
                 }
             }
