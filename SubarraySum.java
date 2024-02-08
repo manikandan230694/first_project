@@ -37,7 +37,7 @@ void subArrayMethod(int arr[], int n, int sum)
             }
         }
     }
-    System.out.println("No subarray found");
+    System.out.println("Not found");
     return;
 }
 }
