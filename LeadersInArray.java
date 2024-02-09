@@ -8,9 +8,9 @@ class LeadersInArray {
 	        LeadersInArray lead = new LeadersInArray();
 	        int arr1[] = new int[] { 16, 17, 4, 3, 5, 2 };
 	        int len = arr1.length;
-	        lead.printLeaders(arr1, len);
+	        lead.leadersMethod(arr1, len);
 	    }
-    void printLeaders(int arr[], int size)
+    void leadersMethod(int arr[], int size)
     {
       
         Stack<Integer> stack1 = new Stack<Integer>();
